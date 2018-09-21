@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     <!--<link rel="stylesheet" href="/assets/css/reset.css"-->
-    <title>Bootstrap Sandbox</title>
+    <title>About</title>
 </head>
 
 <body>
@@ -26,16 +26,15 @@
 
         <nav class="navigation__nav">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Portfolio</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Contact</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Back to Basic-portfolio</a></li>
+                <li class="navigation__item"><a href="about.html" class="navigation__link"><span>01</span>About</a></li>
+                <li class="navigation__item"><a href="portfolio.html" class="navigation__link"><span>02</span>Portfolio</a></li>
+                <li class="navigation__item"><a href="contact.html" class="navigation__link"><span>03</span>Contact</a></li>
             </ul>
         </nav>
     </div>
 
     <header class="header">
-        <div class="logo-box">
+        <div class="header__logo-box">
             <img src="img/logo-white.png" alt="Logo" class="logo">
         </div>
 
@@ -45,62 +44,96 @@
                 <span class="heading-primary-sub">to Christian's page</span>
             </h1>
             <a href="" class="btn btn--white btn--animated">Discover my Projects</a>
-            
+
         </div>
-
-
-
-    
     </header>
 
+    <main>
+        <section class="section-about">
+            <div class="u-center-text u-margin-bottom-8">
+                <h2 class="heading-secondary">
+                    About Me
+                </h2>
+            </div>
 
+            <div class="row">
+                <div class="col-1-of-2">
 
+                </div>
+                <div class="col-1-of-2">
 
-
-    
-    <!-- navigation bar -->
-    <div class="topnav">
-        <a class="active" href="https://christianmpacheco.github.io/Natours/">Christian Martinez</a>
-        <a href="index.html">About |</a>
-        <a href="portfolio.html">Portfolio |</a>
-        <a href="contact.html">Contact |</a>
-</div>
-
-
-    <!--  -->
-    <div class="wrapper">
-        <section id="content">
-            <h1 class="headings">About Me</h1>
-            <hr>
-
-            <img src="assets/images/me.jpg" alt="picture of me" class="floatLeft">
-
-            <p>I'm a personable person with a great sense of humor. I love to keep my mind and options open. Trying new things
-                is a must. Trying new things with new people sounds even better!</p>
-
-            <p>This Basic-Portfolio was assigned at the beggining class and updated through the course. The instructor then assigned us to make a "Bootstrap-Portfolio" which I improve</p>
-
-            <p>I now want a job that involves building websites.</p>
-            <a href="#https://www.facebook.com/profile.php?id=100015330244401" class="fa fa-facebook"></a>
-            <a href="https://www.linkedin.com/in/christianmpacheco/" class="fa fa-linkedin"></a>
-            <a href="https://github.com/christianmpacheco" class="fa fa-github"></a>
-            <a href="http://gmail.com/" class="fa fa-google"></a>
-
-            <blockquote class="blockquote text-right">
-                <p class="mb-0 font-italic">"Every child is an artist. The problem is how to remain an artist once he grows up."</p>
-                <cite title="Source title">-Pablo Picasso</cite>
-            </blockquote>
+                </div>
+            </div>
         </section>
 
+        <section class="section-features">
+            <div class="row">
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <h3 class="heading-tertiary">Explore the World</h3>
+                        <p class="feature-box__text">
+                            This is my first project
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 
-
+    <div class="popup" id="popup">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+                <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h2 class="heading-secondary u-margin-bottom-small">Contact me</h2>
+                <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+                <p class="popup__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Sed sed risus pretium quam. Aliquam sem et tortor consequat id. Volutpat odio facilisis mauris sit amet
+                    massa vitae. Mi bibendum neque egestas congue. Placerat orci nulla pellentesque dignissim enim sit. Vitae
+                    semper quis lectus nulla at volutpat diam ut venenatis. Malesuada pellentesque elit eget gravida cum
+                    sociis natoque penatibus et. Proin fermentum leo vel orci porta non pulvinar neque laoreet. Gravida neque
+                    convallis a cras semper. Molestie at elementum eu facilisis sed odio morbi quis. Faucibus vitae aliquet
+                    nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet sit. Amet massa vitae tortor condimentum
+                    lacinia quis vel eros donec. Sit amet facilisis magna etiam. Imperdiet sed euismod nisi porta.
+                </p>
+                <a href="#" class="btn btn--green">Email me</a>
+            </div>
+        </div>
     </div>
+    </main>
 
-    <!--Footer-->
-    <footer>
-        <p>© Christian Martinez 2018</p>
+
+    <footer class="footer">
+        <div class="footer__logo-box">
+            <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Contact me</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Carrers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Built by <a href="#" class="footer__link">Christian Martinez</a> as personal portfolio for UC Berkeley Extention. 
+                    <a href="#" class="footer__link">Advanced CSS and Sass</a>. Design by Jonas Schmedtmann.
+                </p>
+            </div>
+        </div>
     </footer>
+
+
+
+
 
 
 </body>

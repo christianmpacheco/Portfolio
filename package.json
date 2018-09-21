@@ -1,10 +1,9 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +14,10 @@
   "bugs": {
     "url": "https://github.com/christianmpacheco/Portfolio/issues"
   },
-  "homepage": "https://github.com/christianmpacheco/Portfolio#readme"
+  "homepage": "https://github.com/christianmpacheco/Portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  },
+  "dependencies": {},
+  "description": ""
 }
